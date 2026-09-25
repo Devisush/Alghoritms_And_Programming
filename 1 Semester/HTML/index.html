@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRONTEND</title>
 </head>
+
 <body>
     <header>
-        ЭТО HEADER (РОДИТЕЛЬ)
+        <h1>НАШ ИНТЕРНЕТ МАГАЗИН</h1>
+        <span>ЭТО HEADER</span> <br>(РОДИТЕЛЬ)
         <!-- Это - HEADER -->
         <nav>
+            <h2>Главная (h2)</h2>
+            <h2><a href="https://html5book.ru/html-tags/">Магазин</a></h2>
+
+            <strong>strong</strong>
+            <p>p</p>
+            <em>em</em> <br>
+            <small>small</small> <br>
+            <mark>mark</mark>
+            <span>span</span>
+
+            <h2>Товары (h2)</h2>
             ЭТО NAV (ДОЧЕРНИЙ 1)
-        </nav>
-        <nav>
-            ЭТО NAV (ДОЧЕРНИЙ 2)
-        </nav>
-        <nav>
-            ЭТО NAV (ДОЧЕРНИЙ 3)
+            <h3><a href="./contacts.html">Контакты</a>(h3)</h3>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB_5W6NVIk4bewizaL_jMb3AO-zjQ1tBLzLsxK7H_mhA&s=10"
+                    alt="#"> <!--Картинка не будет без интернета-->
+                <img src="./Images/fih.jpg" alt="#">
+                <!--Картинка будет загружена без интернета, если она уже была ранее загружена-->
+            </div>
         </nav>
     </header>
 
@@ -30,7 +45,7 @@
         </article>
 
         <aside>
-            ЭТО ASIDE
+            ЭТО ASIDE (ДОЧЕРНИЙ 5)
         </aside>
     </main>
 
@@ -38,4 +53,5 @@
         ЭТО FOOTER
     </footer>
 </body>
+
 </html>
