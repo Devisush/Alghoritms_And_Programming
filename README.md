@@ -19,3 +19,5 @@
 [Полный список HTML-тегов](https://html5book.ru/html-tags/)
 
 [Академия стилей](https://htmlacademy.ru/courses/297/run/7)
+
+[Шрифты для CSS](https://msiter.ru/references/css-reference)
