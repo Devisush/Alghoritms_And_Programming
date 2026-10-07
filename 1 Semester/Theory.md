@@ -122,3 +122,113 @@ WEB-разработка. Движок исполнения кода - брау�
 <a href="https://html5book.ru/html-tags/">Помощник</a></h2> <!--Внешний-->
 <a href="./contacts.html">Контакты</a> <!--Внутренний-->
 ```
+
+# ИЗОБРАЖЕНИЕ С ПОДПИСЬЮ
+
+```html
+<figure>
+    <img src="./..."> alt="...">
+    <figcaption>Image Description</figcaption>
+</figure>
+```
+
+`<figure>` - Самодостаточный элемент-контейнер для такого контента как иллюстрации, диаграммы, фотографии, примеры кода, обычно с подписью
+
+`<figcaption>` -Заголовок/подпись для элемента `<figure>`
+
+Маркированный список:
+```html
+<ul>
+    <li>Текст 1</li>
+    <li>Текст 2</li>
+    <li>Текст 3</li>
+    <li>Текст 4</li>
+</ul>
+```
+Нумированный список
+```html
+<ol>
+    <li>Текст 1</li>
+    <li>Текст 2</li>
+    <li>Текст 3</li>
+    <li>Текст 4</li>
+</ol>
+```
+
+`<ul>` - Создает маркированный список
+`<ol>` - Упорядоченный нумерованный список. Нумерация может быть числовая или алфавитная
+`<li>` - Элемент списка
+
+# Таблицы
+
+```html
+<table>
+    <thead>
+        <tr>
+            <th>Артикул</th>
+            <th>Название</th>
+            <th>Цена</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>123</td>
+            <td>DivanBoss1</td>
+            <td>5000</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+Таблицы необходимы для вывода данных с сервера
+
+`<table>` - Элемент для создания таблиц
+`<thead>`/`<caption>` - Заголовок таблицы
+`<tbody>` - Тело таблицы
+`<tfoot>` - Нижный колонтитул таблицы
+`<tr>` - Добавление строки
+`<th>` - Добавление ячейки в thead
+`<td>` - Добавление ячейки
+
+## Формы
+
+```html
+<form action="./scripts/scriptform.js" method="post">
+    <div>
+        <label for="login">Логин</label>
+        <input name="login" type="email" placeholder="example@mail.ru" required>
+    </div>
+    <div>
+        <label for="password">Пароль</label>
+        <input name="password" required>
+    </div>
+    <button type="submit">Отправить</button>
+ </form>
+```
+
+`<form>` - Форма для сбора и отправки на сервер информации от пользователей. Не работает без атрибута `action`
+`label` - Добавляет текстовую метку для элемента `<input>`
+`<input>`- Создает многофункциональные поля формы, в которые пользователь может вводить данные
+`<button>` - Создает интерактивную кнопку. Элемент может содержать текст или изображение. Зачастую служит триггером функции
+`<textrea>Большое поле для ввода</textrea>` - Когда нужно больше 255 символов
+
+Атрибуты `<input>`:
+```html
+<input type="text">
+<input type="email">
+<input type="password">
+<input type="number" min="0" step="1">
+<input type="date">
+<input type="checkbox">
+<input type="radio">
+<input type="file">
+```
+
+Открывающийся список:
+```html
+<select>
+    <option>DivanBoss</option>
+    <option>DimanBoss</option>
+</select>
+```
