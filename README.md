@@ -14,7 +14,7 @@
 ## Последний год/семестр
 Подготовка к Демонстратиционному экзамену. C# (Visual Studio, WPF (.netFramework)), SQL Server
 
-## Ссылки
+## Важные ссылки
 
 [Полный список HTML-тегов](https://html5book.ru/html-tags/)
 
