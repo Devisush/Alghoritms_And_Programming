@@ -16,8 +16,12 @@
 
 ## Важные ссылки
 
-[Полный список HTML-тегов](https://html5book.ru/html-tags/)
+- [Полный список HTML-тегов](https://html5book.ru/html-tags/)
 
-[Академия стилей](https://htmlacademy.ru/courses/297/run/7)
+- [Академия стилей](https://htmlacademy.ru/courses/297/run/7)
 
-[Шрифты для CSS](https://msiter.ru/references/css-reference)
+- [Шрифты для CSS](https://msiter.ru/references/css-reference)
+
+- [Фигма](https://www.figma.com/)
+
+- [mayerweb](https://meyerweb.com/eric/tools/css/reset/)

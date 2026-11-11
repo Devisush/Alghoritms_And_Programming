@@ -300,7 +300,7 @@ WEB-разработка. Движок исполнения кода - брау�
 
 ## Подключение файла стилей к документу .html:
 ```html
-<link rel="stylesheet" hred="./file.css>
+<link rel="stylesheet" href="./file.css>
 ```
 
 `<link>` - Позволяет подкоючить файл CSS к файлу .html; рекомендуется подключать в конце тега `<head>`
@@ -333,5 +333,37 @@ div {
 ```CSS
 ul li {
     font-size: 30px;
+}
+
+.firstUl li {
+    font-size: 30px;
+}
+```
+
+ТАК ДЕЛАТЬ ПЛОХО:
+
+```html
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+```
+
+ТАК ДЕЛАТЬ ХОРОШО:
+
+```html
+<ul class="list">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+```
+
+Задать свойство n-му обьекту (псевдоэлемент):
+
+```css
+.headerDiv:nth-child(2) {
+    background-color: green;
 }
 ```
